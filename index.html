@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snake</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+        #score-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div id="score-container">
+        <div>Score: <span id="score"></span></div>
+        <div>High Score: <span id="highscore"></span></div>
+        <div>Press Enter to start</div>
+    </div>
+    <canvas id="myCanvas" width="400" height="400"></canvas>
+    <script src="snake.js"></script>
+</body>
+</html>
